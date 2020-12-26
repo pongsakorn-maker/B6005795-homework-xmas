@@ -17,6 +17,7 @@ func (User) Fields() []ent.Field {
 		field.Int("age").Positive(),
 		field.String("name").NotEmpty(),
 		field.String("telephone").NotEmpty(),
+		field.String("address").NotEmpty(),
 	}
 }
 
